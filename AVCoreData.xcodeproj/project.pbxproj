@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD63F9E422DDFB8800F3FC25 /* AVTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD63F9E322DDFB8800F3FC25 /* AVTabBarController.m */; };
+		FD963A4B22D9DC9E008ACDE0 /* AVTableViewControllerTeahers.m in Sources */ = {isa = PBXBuildFile; fileRef = FD963A4A22D9DC9E008ACDE0 /* AVTableViewControllerTeahers.m */; };
+		FDAC569F22D37D8600EA33F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAC569E22D37D8600EA33F0 /* AppDelegate.m */; };
+		FDAC56AA22D37D9400EA33F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDAC56A922D37D9400EA33F0 /* Assets.xcassets */; };
+		FDAC56AD22D37D9400EA33F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDAC56AB22D37D9400EA33F0 /* LaunchScreen.storyboard */; };
+		FDAC56B022D37D9400EA33F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAC56AF22D37D9400EA33F0 /* main.m */; };
+		FDAC56B722D37E0200EA33F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDAC56B622D37E0200EA33F0 /* Main.storyboard */; };
+		FDAC56BA22D37E6000EA33F0 /* AVCoreDat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FDAC56B822D37E6000EA33F0 /* AVCoreDat.xcdatamodeld */; };
+		FDAF04B922D391F500AEAFA4 /* AVAbstractEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAF04AB22D391F400AEAFA4 /* AVAbstractEntity+CoreDataProperties.m */; };
+		FDAF04BD22D391F500AEAFA4 /* AVDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAF04B522D391F500AEAFA4 /* AVDataManager.m */; };
+		FDAF04BF22D391F500AEAFA4 /* AVAbstractEntity+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAF04B822D391F500AEAFA4 /* AVAbstractEntity+CoreDataClass.m */; };
+		FDAF04E522D39CF100AEAFA4 /* AVUnivers+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAF04DD22D39CF100AEAFA4 /* AVUnivers+CoreDataClass.m */; };
+		FDAF04E622D39CF100AEAFA4 /* AVUnivers+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAF04DE22D39CF100AEAFA4 /* AVUnivers+CoreDataProperties.m */; };
+		FDAF04ED22D3A3AC00AEAFA4 /* AVUsers+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAF04EB22D3A3AC00AEAFA4 /* AVUsers+CoreDataClass.m */; };
+		FDAF04EE22D3A3AC00AEAFA4 /* AVUsers+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAF04EC22D3A3AC00AEAFA4 /* AVUsers+CoreDataProperties.m */; };
+		FDAF04F622D3A94F00AEAFA4 /* AVCourses+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAF04F422D3A94F00AEAFA4 /* AVCourses+CoreDataClass.m */; };
+		FDAF04F722D3A94F00AEAFA4 /* AVCourses+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAF04F522D3A94F00AEAFA4 /* AVCourses+CoreDataProperties.m */; };
+		FDAF04FE22D3B25400AEAFA4 /* AVTableViewControllerUsers.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAF04FD22D3B25400AEAFA4 /* AVTableViewControllerUsers.m */; };
+		FDD80EF522D71C89009C7597 /* AVTableViewControllerCourses.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD80EF422D71C89009C7597 /* AVTableViewControllerCourses.m */; };
+		FDD80EF822D71FFB009C7597 /* AVTableViewControllerDataCourses.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD80EF722D71FFB009C7597 /* AVTableViewControllerDataCourses.m */; };
+		FDD80EFB22D75DBC009C7597 /* AVTVCPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD80EFA22D75DBC009C7597 /* AVTVCPopover.m */; };
+		FDEFDD3822D4B4A000B76386 /* AVTableViewControllerDataUsers.m in Sources */ = {isa = PBXBuildFile; fileRef = FDEFDD3722D4B4A000B76386 /* AVTableViewControllerDataUsers.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FD63F9E222DDFB8800F3FC25 /* AVTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVTabBarController.h; sourceTree = "<group>"; };
+		FD63F9E322DDFB8800F3FC25 /* AVTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVTabBarController.m; sourceTree = "<group>"; };
+		FD963A4922D9DC9E008ACDE0 /* AVTableViewControllerTeahers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVTableViewControllerTeahers.h; sourceTree = "<group>"; };
+		FD963A4A22D9DC9E008ACDE0 /* AVTableViewControllerTeahers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVTableViewControllerTeahers.m; sourceTree = "<group>"; };
+		FDAC569A22D37D8600EA33F0 /* AVCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDAC569D22D37D8600EA33F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FDAC569E22D37D8600EA33F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FDAC56A922D37D9400EA33F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDAC56AC22D37D9400EA33F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDAC56AE22D37D9400EA33F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDAC56AF22D37D9400EA33F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDAC56B622D37E0200EA33F0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FDAC56B922D37E6000EA33F0 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		FDAF04AB22D391F400AEAFA4 /* AVAbstractEntity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AVAbstractEntity+CoreDataProperties.m"; sourceTree = "<group>"; };
+		FDAF04AD22D391F400AEAFA4 /* AVAbstractEntity+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AVAbstractEntity+CoreDataClass.h"; sourceTree = "<group>"; };
+		FDAF04AF22D391F400AEAFA4 /* AVAbstractEntity+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AVAbstractEntity+CoreDataProperties.h"; sourceTree = "<group>"; };
+		FDAF04B322D391F400AEAFA4 /* AVDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVDataManager.h; sourceTree = "<group>"; };
+		FDAF04B522D391F500AEAFA4 /* AVDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVDataManager.m; sourceTree = "<group>"; };
+		FDAF04B822D391F500AEAFA4 /* AVAbstractEntity+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AVAbstractEntity+CoreDataClass.m"; sourceTree = "<group>"; };
+		FDAF04DB22D39CF100AEAFA4 /* AVUnivers+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AVUnivers+CoreDataProperties.h"; sourceTree = "<group>"; };
+		FDAF04DC22D39CF100AEAFA4 /* AVUnivers+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AVUnivers+CoreDataClass.h"; sourceTree = "<group>"; };
+		FDAF04DD22D39CF100AEAFA4 /* AVUnivers+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AVUnivers+CoreDataClass.m"; sourceTree = "<group>"; };
+		FDAF04DE22D39CF100AEAFA4 /* AVUnivers+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AVUnivers+CoreDataProperties.m"; sourceTree = "<group>"; };
+		FDAF04E922D3A3AC00AEAFA4 /* AVUsers+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AVUsers+CoreDataProperties.h"; sourceTree = "<group>"; };
+		FDAF04EA22D3A3AC00AEAFA4 /* AVUsers+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AVUsers+CoreDataClass.h"; sourceTree = "<group>"; };
+		FDAF04EB22D3A3AC00AEAFA4 /* AVUsers+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AVUsers+CoreDataClass.m"; sourceTree = "<group>"; };
+		FDAF04EC22D3A3AC00AEAFA4 /* AVUsers+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AVUsers+CoreDataProperties.m"; sourceTree = "<group>"; };
+		FDAF04F222D3A94F00AEAFA4 /* AVCourses+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AVCourses+CoreDataProperties.h"; sourceTree = "<group>"; };
+		FDAF04F322D3A94F00AEAFA4 /* AVCourses+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AVCourses+CoreDataClass.h"; sourceTree = "<group>"; };
+		FDAF04F422D3A94F00AEAFA4 /* AVCourses+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AVCourses+CoreDataClass.m"; sourceTree = "<group>"; };
+		FDAF04F522D3A94F00AEAFA4 /* AVCourses+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AVCourses+CoreDataProperties.m"; sourceTree = "<group>"; };
+		FDAF04FC22D3B25400AEAFA4 /* AVTableViewControllerUsers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVTableViewControllerUsers.h; sourceTree = "<group>"; };
+		FDAF04FD22D3B25400AEAFA4 /* AVTableViewControllerUsers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVTableViewControllerUsers.m; sourceTree = "<group>"; };
+		FDD80EF322D71C89009C7597 /* AVTableViewControllerCourses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVTableViewControllerCourses.h; sourceTree = "<group>"; };
+		FDD80EF422D71C89009C7597 /* AVTableViewControllerCourses.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVTableViewControllerCourses.m; sourceTree = "<group>"; };
+		FDD80EF622D71FFB009C7597 /* AVTableViewControllerDataCourses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVTableViewControllerDataCourses.h; sourceTree = "<group>"; };
+		FDD80EF722D71FFB009C7597 /* AVTableViewControllerDataCourses.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVTableViewControllerDataCourses.m; sourceTree = "<group>"; };
+		FDD80EF922D75DBC009C7597 /* AVTVCPopover.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVTVCPopover.h; sourceTree = "<group>"; };
+		FDD80EFA22D75DBC009C7597 /* AVTVCPopover.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVTVCPopover.m; sourceTree = "<group>"; };
+		FDEFDD3622D4B4A000B76386 /* AVTableViewControllerDataUsers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVTableViewControllerDataUsers.h; sourceTree = "<group>"; };
+		FDEFDD3722D4B4A000B76386 /* AVTableViewControllerDataUsers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVTableViewControllerDataUsers.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDAC569722D37D8600EA33F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDAC569122D37D8600EA33F0 = {
+			isa = PBXGroup;
+			children = (
+				FDAC569C22D37D8600EA33F0 /* AVCoreData */,
+				FDAC569B22D37D8600EA33F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDAC569B22D37D8600EA33F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDAC569A22D37D8600EA33F0 /* AVCoreData.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDAC569C22D37D8600EA33F0 /* AVCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				FD63F9E222DDFB8800F3FC25 /* AVTabBarController.h */,
+				FD63F9E322DDFB8800F3FC25 /* AVTabBarController.m */,
+				FDD80EF922D75DBC009C7597 /* AVTVCPopover.h */,
+				FDD80EFA22D75DBC009C7597 /* AVTVCPopover.m */,
+				FD963A4922D9DC9E008ACDE0 /* AVTableViewControllerTeahers.h */,
+				FD963A4A22D9DC9E008ACDE0 /* AVTableViewControllerTeahers.m */,
+				FDD80EF622D71FFB009C7597 /* AVTableViewControllerDataCourses.h */,
+				FDD80EF722D71FFB009C7597 /* AVTableViewControllerDataCourses.m */,
+				FDD80EF322D71C89009C7597 /* AVTableViewControllerCourses.h */,
+				FDD80EF422D71C89009C7597 /* AVTableViewControllerCourses.m */,
+				FDEFDD3622D4B4A000B76386 /* AVTableViewControllerDataUsers.h */,
+				FDEFDD3722D4B4A000B76386 /* AVTableViewControllerDataUsers.m */,
+				FDAF04FC22D3B25400AEAFA4 /* AVTableViewControllerUsers.h */,
+				FDAF04FD22D3B25400AEAFA4 /* AVTableViewControllerUsers.m */,
+				FDAC56A922D37D9400EA33F0 /* Assets.xcassets */,
+				FDAF04F222D3A94F00AEAFA4 /* AVCourses+CoreDataProperties.h */,
+				FDAF04F322D3A94F00AEAFA4 /* AVCourses+CoreDataClass.h */,
+				FDAF04F422D3A94F00AEAFA4 /* AVCourses+CoreDataClass.m */,
+				FDAF04F522D3A94F00AEAFA4 /* AVCourses+CoreDataProperties.m */,
+				FDAF04DC22D39CF100AEAFA4 /* AVUnivers+CoreDataClass.h */,
+				FDAF04DD22D39CF100AEAFA4 /* AVUnivers+CoreDataClass.m */,
+				FDAF04DB22D39CF100AEAFA4 /* AVUnivers+CoreDataProperties.h */,
+				FDAF04DE22D39CF100AEAFA4 /* AVUnivers+CoreDataProperties.m */,
+				FDAF04AD22D391F400AEAFA4 /* AVAbstractEntity+CoreDataClass.h */,
+				FDAF04B822D391F500AEAFA4 /* AVAbstractEntity+CoreDataClass.m */,
+				FDAF04AF22D391F400AEAFA4 /* AVAbstractEntity+CoreDataProperties.h */,
+				FDAF04AB22D391F400AEAFA4 /* AVAbstractEntity+CoreDataProperties.m */,
+				FDAF04E922D3A3AC00AEAFA4 /* AVUsers+CoreDataProperties.h */,
+				FDAF04EA22D3A3AC00AEAFA4 /* AVUsers+CoreDataClass.h */,
+				FDAF04EB22D3A3AC00AEAFA4 /* AVUsers+CoreDataClass.m */,
+				FDAF04EC22D3A3AC00AEAFA4 /* AVUsers+CoreDataProperties.m */,
+				FDAF04B322D391F400AEAFA4 /* AVDataManager.h */,
+				FDAF04B522D391F500AEAFA4 /* AVDataManager.m */,
+				FDAC569D22D37D8600EA33F0 /* AppDelegate.h */,
+				FDAC569E22D37D8600EA33F0 /* AppDelegate.m */,
+				FDAC56AE22D37D9400EA33F0 /* Info.plist */,
+				FDAC56AF22D37D9400EA33F0 /* main.m */,
+				FDAC56AB22D37D9400EA33F0 /* LaunchScreen.storyboard */,
+				FDAC56B622D37E0200EA33F0 /* Main.storyboard */,
+				FDAC56B822D37E6000EA33F0 /* AVCoreDat.xcdatamodeld */,
+			);
+			path = AVCoreData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDAC569922D37D8600EA33F0 /* AVCoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDAC56B322D37D9400EA33F0 /* Build configuration list for PBXNativeTarget "AVCoreData" */;
+			buildPhases = (
+				FDAC569622D37D8600EA33F0 /* Sources */,
+				FDAC569722D37D8600EA33F0 /* Frameworks */,
+				FDAC569822D37D8600EA33F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AVCoreData;
+			productName = AVCoreData;
+			productReference = FDAC569A22D37D8600EA33F0 /* AVCoreData.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDAC569222D37D8600EA33F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = AnatolyRyavkin;
+				TargetAttributes = {
+					FDAC569922D37D8600EA33F0 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = FDAC569522D37D8600EA33F0 /* Build configuration list for PBXProject "AVCoreData" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDAC569122D37D8600EA33F0;
+			productRefGroup = FDAC569B22D37D8600EA33F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDAC569922D37D8600EA33F0 /* AVCoreData */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDAC569822D37D8600EA33F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDAC56B722D37E0200EA33F0 /* Main.storyboard in Resources */,
+				FDAC56AD22D37D9400EA33F0 /* LaunchScreen.storyboard in Resources */,
+				FDAC56AA22D37D9400EA33F0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDAC569622D37D8600EA33F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDEFDD3822D4B4A000B76386 /* AVTableViewControllerDataUsers.m in Sources */,
+				FDAF04BF22D391F500AEAFA4 /* AVAbstractEntity+CoreDataClass.m in Sources */,
+				FDAF04FE22D3B25400AEAFA4 /* AVTableViewControllerUsers.m in Sources */,
+				FDAF04B922D391F500AEAFA4 /* AVAbstractEntity+CoreDataProperties.m in Sources */,
+				FDAF04F722D3A94F00AEAFA4 /* AVCourses+CoreDataProperties.m in Sources */,
+				FDAF04ED22D3A3AC00AEAFA4 /* AVUsers+CoreDataClass.m in Sources */,
+				FDAF04EE22D3A3AC00AEAFA4 /* AVUsers+CoreDataProperties.m in Sources */,
+				FDAF04E522D39CF100AEAFA4 /* AVUnivers+CoreDataClass.m in Sources */,
+				FDAC56B022D37D9400EA33F0 /* main.m in Sources */,
+				FDD80EFB22D75DBC009C7597 /* AVTVCPopover.m in Sources */,
+				FDAF04F622D3A94F00AEAFA4 /* AVCourses+CoreDataClass.m in Sources */,
+				FDAF04E622D39CF100AEAFA4 /* AVUnivers+CoreDataProperties.m in Sources */,
+				FDAC569F22D37D8600EA33F0 /* AppDelegate.m in Sources */,
+				FD63F9E422DDFB8800F3FC25 /* AVTabBarController.m in Sources */,
+				FDD80EF522D71C89009C7597 /* AVTableViewControllerCourses.m in Sources */,
+				FDD80EF822D71FFB009C7597 /* AVTableViewControllerDataCourses.m in Sources */,
+				FD963A4B22D9DC9E008ACDE0 /* AVTableViewControllerTeahers.m in Sources */,
+				FDAC56BA22D37E6000EA33F0 /* AVCoreDat.xcdatamodeld in Sources */,
+				FDAF04BD22D391F500AEAFA4 /* AVDataManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FDAC56AB22D37D9400EA33F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDAC56AC22D37D9400EA33F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDAC56B122D37D9400EA33F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FDAC56B222D37D9400EA33F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDAC56B422D37D9400EA33F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92NKZ7998L;
+				INFOPLIST_FILE = AVCoreData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AnatatolyRyavkin.AVCoreData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDAC56B522D37D9400EA33F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92NKZ7998L;
+				INFOPLIST_FILE = AVCoreData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AnatatolyRyavkin.AVCoreData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDAC569522D37D8600EA33F0 /* Build configuration list for PBXProject "AVCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDAC56B122D37D9400EA33F0 /* Debug */,
+				FDAC56B222D37D9400EA33F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDAC56B322D37D9400EA33F0 /* Build configuration list for PBXNativeTarget "AVCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDAC56B422D37D9400EA33F0 /* Debug */,
+				FDAC56B522D37D9400EA33F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FDAC56B822D37E6000EA33F0 /* AVCoreDat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FDAC56B922D37E6000EA33F0 /* Model.xcdatamodel */,
+			);
+			currentVersion = FDAC56B922D37E6000EA33F0 /* Model.xcdatamodel */;
+			path = AVCoreDat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FDAC569222D37D8600EA33F0 /* Project object */;
+}

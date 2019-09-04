@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18F132" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="AVAbstractEntity" representedClassName="" isAbstract="YES" syncable="YES"/>
+    <entity name="AVCourses" representedClassName="" parentEntity="AVAbstractEntity" syncable="YES">
+        <attribute name="facultet" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="spechial" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="teahers" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="AVUsers" inverseName="coursesTeahers" inverseEntity="AVUsers" syncable="YES"/>
+        <relationship name="university" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="AVUniversity" inverseName="courses" inverseEntity="AVUniversity" syncable="YES"/>
+        <relationship name="users" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="AVUsers" inverseName="coursesLearn" inverseEntity="AVUsers" syncable="YES"/>
+    </entity>
+    <entity name="AVUniversity" representedClassName="" parentEntity="AVAbstractEntity" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="courses" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="AVCourses" inverseName="university" inverseEntity="AVCourses" syncable="YES"/>
+        <relationship name="users" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="AVUsers" inverseName="university" inverseEntity="AVUsers" syncable="YES"/>
+    </entity>
+    <entity name="AVUsers" representedClassName="" parentEntity="AVAbstractEntity" syncable="YES">
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastname" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="coursesLearn" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="AVCourses" inverseName="users" inverseEntity="AVCourses" syncable="YES"/>
+        <relationship name="coursesTeahers" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="AVCourses" inverseName="teahers" inverseEntity="AVCourses" syncable="YES"/>
+        <relationship name="university" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="AVUniversity" inverseName="users" inverseEntity="AVUniversity" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="AVAbstractEntity" positionX="-141.90234375" positionY="-101.109375" width="128" height="43"/>
+        <element name="AVCourses" positionX="-488.69140625" positionY="230.3671875" width="128" height="133"/>
+        <element name="AVUniversity" positionX="-140.68359375" positionY="100.7890625" width="128" height="88"/>
+        <element name="AVUsers" positionX="125.78515625" positionY="240.79296875" width="128" height="133"/>
+    </elements>
+</model>
