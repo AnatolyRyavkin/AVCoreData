@@ -85,8 +85,6 @@
     return _fetchedResultsControllerUsers;
 }
 
-
-
 -(NSArray<NSString*>*)arraySpechials{
     if(_arraySpechials!=nil)
         return _arraySpechials;

@@ -14,7 +14,6 @@
 @end
 
 @implementation AVTableViewControllerUsers
-
 @synthesize managedObjectContext=_managedObjectContext,fetchedResultsController=_fetchedResultsController;
 
 -(NSManagedObjectContext*)managedObjectContext{
@@ -30,9 +29,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.tableView.allowsSelectionDuringEditing=YES;
-    
 }
-
 - (IBAction)edit:(UIBarButtonItem *)sender {
     if(self.flagDelAll==YES){
         self.flagDelAll=NO;
@@ -42,7 +39,6 @@
     self.tableView.editing=YES;
     }
 }
-
 - (IBAction)clearBase:(UIBarButtonItem *)sender {
     _fetchedResultsController=nil;
     [self.dataManager removeBase];
